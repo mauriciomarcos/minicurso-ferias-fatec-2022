@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContatosAPI", "ContatosAPI\ContatosAPI.csproj", "{13F61F4F-8220-47F4-B366-F6519305A660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Domains\Domains.csproj", "{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13F61F4F-8220-47F4-B366-F6519305A660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F61F4F-8220-47F4-B366-F6519305A660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F61F4F-8220-47F4-B366-F6519305A660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F61F4F-8220-47F4-B366-F6519305A660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CD8D732-9E47-44CE-B293-CA976EE6622D}
+	EndGlobalSection
+EndGlobal

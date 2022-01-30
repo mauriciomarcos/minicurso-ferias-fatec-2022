@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  contato-api:
+    image: contatosapi-minicurso-fatec2022:latest
+    container_name: contatosapi-minicurso-fatec2022
+    build:
+      context: ../
+      dockerfile: ./ContatosAPI/Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://*:5001
