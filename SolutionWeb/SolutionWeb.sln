@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContatosAPI", "ContatosAPI\ContatosAPI.csproj", "{13F61F4F-8220-47F4-B366-F6519305A660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContatosAPI", "ContatosAPI\ContatosAPI.csproj", "{13F61F4F-8220-47F4-B366-F6519305A660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Domains\Domains.csproj", "{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domains", "Domains\Domains.csproj", "{7C6ADD9C-5374-4746-A3F7-BE339C2A1C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositorio", "Repositorio\Repositorio.csproj", "{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContatosAPI.Test", "ContatosAPI.Test\ContatosAPI.Test.csproj", "{0A1F8F2D-B7A4-4848-BA86-2FCA13D84807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A1F20C4-9B6B-4293-A897-0D269ECD5CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1F8F2D-B7A4-4848-BA86-2FCA13D84807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1F8F2D-B7A4-4848-BA86-2FCA13D84807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1F8F2D-B7A4-4848-BA86-2FCA13D84807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1F8F2D-B7A4-4848-BA86-2FCA13D84807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

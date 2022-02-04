@@ -42,12 +42,16 @@ namespace ContatosAPI.Controllers
 
         [HttpGet("/contatos/{id:int}")]
         [ProducesResponseType(typeof(Contato), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             try
             {
                 var contato = await _contatoRepositorio.GetById(id);
+                if (contato is null)
+                    return NotFound();
+
                 return Ok(contato);
             }
             catch (Exception ex)
